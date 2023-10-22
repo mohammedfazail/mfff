@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="orange">
+    <style>
+        h1{
+            font-weight: 900;
+            position: relative;
+        }
+        h1::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 5px;
+            width: 0%;
+            background-color: #333;
+            transition: all ease 1s;
+        }
+        h1:hover::after{
+            width: 42%;
+        }
+
+    </style>
+    <h1>MOHAMMED FAZAIL PROFECTS</h1>
+    <br>
+    <h2>
+    <a href="./languages/index.html">MY PROJECT</a>
+</h2>
+</body>
+</html>
